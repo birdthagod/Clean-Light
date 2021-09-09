@@ -1,0 +1,33 @@
+{
+    "name": "cleanlight",
+    "displayName": "Clean-Light",
+    "description": "A clean Light theme for VSC!",
+    "publisher": "Clean-Light",
+    "version": "0.0.1",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/0x81RD/Clean-Light"
+    },
+    "engines": {
+        "vscode": "^1.60.0"
+    },
+    "keywords": [
+        "light theme",
+        "clean light theme",
+        "light",
+        "clean theme",
+        "birdlinux"
+    ],
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Clean-Light",
+                "uiTheme": "vs",
+                "path": "./themes/Clean-Light-color-theme.json"
+            }
+        ]
+    }
+}
